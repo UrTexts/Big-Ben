@@ -14,20 +14,20 @@ Required Python libraries:
   Clone the repository,
 Copy code
 
-  `git clone https://github.com/UrTexts/Big-Ben.git`
+  git clone https://github.com/UrTexts/Big-Ben.git
 
-  `cd BigBenBot`
+  cd BigBenBot
   
 # Ensure ffmpeg is installed:
 
   Linux: Install via your package manager:
   
-    `sudo apt install ffmpeg`
+    sudo apt install ffmpeg
   Windows: Download and install FFmpeg.
   
   Mac: Install with Homebrew:
 
-    `brew install ffmpeg`
+    brew install ffmpeg
     
 # Setup
   Place your audio file named chime.mp3 in the same directory as the bot script.
@@ -35,7 +35,7 @@ Copy code
 # Usage
   Run the bot:
   
-  `python bigben.py`
+  python bigben.py
   
   Add your bot to a Discord server using its OAuth2 URL.
   The bot will automatically join a populated voice channel and play the chime every hour.
