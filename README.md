@@ -35,7 +35,7 @@ Copy code
 # Usage
   Run the bot:
   
-  python bigben.py
+  `python bigben.py`
   
   Add your bot to a Discord server using its OAuth2 URL.
   The bot will automatically join a populated voice channel and play the chime every hour.
@@ -43,7 +43,7 @@ Copy code
 
 # Customization
   Replace chime.mp3 with any MP3 file for a custom chime.
-  Modify the hourly logic in hourly_chime_loop if you'd like different behavior.
+  Modify the hourly logic in `hourly_chime_loop` if you'd like different behavior.
 
 # Troubleshooting
   Bot not joining a channel: Ensure there’s at least one user in the voice channel.
